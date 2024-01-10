@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<title>Students Directory</title>
+</head>
+<body>
+    <div class="container">
+        <h3>Students Directory</h3>
+        <hr>
+         <a th:href="@{/courses/showFormForAddStudent(testModelAttr=${test})}"
+         class="btn btn-primary btn-sm mb-3">
+         Add Student
+     </a>
+        <table class="table table-bordered table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Year</th>
+                    <th>Final Exam</th>
+                    <th>Project</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="tempStudent : ${students}">
+                    <td th:text="${tempStudent.first_name}" />	      
+                    <td th:text="${tempStudent.last_name}" />	  
+                    <td th:text="${tempStudent.year}" />	       
+                    <td th:text="${tempStudent.final_exam}" />	      
+                    <td th:text="${tempStudent.project}" />	      
+                    <td>
+                        <!-- Add "update" button/link -->
+                        <a th:href="@{/courses/showFormForUpdateStudent(studentId=${tempStudent.id})}"
+                            class="btn btn-info btn-sm">
+                            Update
+                        </a>
+                        <!-- Add "delete" button/link -->					
+                        <a th:href="@{/courses/deleteStudent(studentId=${tempStudent.id})}"
+                            class="btn btn-danger btn-sm" 
+                            onclick="if (!(confirm('Are you sure you want to delete this student?'))) return false">
+                            Delete
+                        </a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    </body>
+    </html>
