@@ -18,26 +18,13 @@ The core functionality focuses on course and student management:
 
 -	**Course Management (US2, US3, US4, US5):**
 
-  - **View** a list of courses.
+    - **View** a list of courses.
 
   - **Add** a new course.
 
   - **Update** existing course information.
 
-  - **Delete** a course.
-
-
-  - **View** the lsit of students for a specific course.
-
-  - **Add** a new student to a course.
-    
-  - **Delete** a student from the course.
- 
-  - **Update** student information.
- 
-  - **Update** student grades within a course.
-
-    
+  - **Delete** a course.    
 
 - **Student Management (US6, US7, US8, Us9, US10):**
 
