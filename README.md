@@ -14,31 +14,31 @@ Using **SpringBoot** to manage dependancies, authentication and authorization an
 
 The core functionality focuses on course and student management:
 
-&nbsp;&nbsp;&nbsp;&nbsp;•	**Login/Authentication (US1): Allows the Instructor to log in with credentials**
+- **Login/Authentication (US1): Allows the Instructor to log in with credentials**
 
-&nbsp;&nbsp;&nbsp;&nbsp;•	**Course Management (US2, US3, US4, US5):**
+-	**Course Management (US2, US3, US4, US5):**
 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	**View** a list of courses.
+  - **View** a list of courses.
+    
+  - **Add** a new course.
+    
+  - **Update** existing course information.
 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	**Add** a new course.
+  - **Delete** a course.
 
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; •	**Update** existing course information.
+- **Student Management (US6, US7, US8, Us9, US10):**
 
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; •	**Delete** a course.
+  - **View** the lsit of students for a specific course.
 
-&nbsp;&nbsp;&nbsp;&nbsp;•	**Student Management (US6, US7, US8, Us9, US10):**
+  - **Add** a new student to a course.
+    
+  - **Delete** a student from the course.
+ 
+  - **Update** student information.
+ 
+  - **Update** student grades within a course.
 
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; •	**View** the lsit of students for a specific course.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  •	**Add** a new student to a course.
-
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; •	**Delete** a student from the course.
-
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; •	**Update** student information.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  •	**Update** student grades within a course.
-
-  The development was completed across **three main sprints** and a final detailing/fixes sprint. The team used the **Scrum** methodology.
+The development was completed across **three main sprints** and a final detailing/fixes sprint. The team used the **Scrum** methodology.
 
 
 
