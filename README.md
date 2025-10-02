@@ -14,7 +14,7 @@ Using **SpringBoot** to manage dependancies, authentication and authorization an
 
 The core functionality focuses on course and student management:
 
-> •	**Login/Authentication (US1): Allows the Instructor to log in with credentials**
+&nbsp;•	**Login/Authentication (US1): Allows the Instructor to log in with credentials**
 
 •	**Course Management (US2, US3, US4, US5):**
 
