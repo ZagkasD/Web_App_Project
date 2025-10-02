@@ -20,23 +20,23 @@ The core functionality focuses on course and student management:
 
     - **View** a list of courses.
 
-  - **Add** a new course.
+    - **Add** a new course.
 
-  - **Update** existing course information.
+    - **Update** existing course information.
 
-  - **Delete** a course.    
+    - **Delete** a course.    
 
 - **Student Management (US6, US7, US8, Us9, US10):**
 
-  - **View** the lsit of students for a specific course.
+    - **View** the lsit of students for a specific course.
 
-  - **Add** a new student to a course.
+    - **Add** a new student to a course.
     
-  - **Delete** a student from the course.
+    - **Delete** a student from the course.
  
-  - **Update** student information.
+    - **Update** student information.
  
-  - **Update** student grades within a course.
+    - **Update** student grades within a course.
 
 The development was completed across **three main sprints** and a final detailing/fixes sprint. The team used the **Scrum** methodology.
 
